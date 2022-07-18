@@ -326,9 +326,18 @@ body {
   font-size: 16px;
   line-height: 140.62%;
   color:#000000;
-  margin-bottom: 55px;
   width: 99px;
   margin-top: 0;
+  margin-bottom: 0;
+}
+
+.popular-categories__title::after {
+  display: inline-block;
+  content: '';
+  border-bottom: 1px solid #EFEFEF;
+  width: 255px;
+  margin-top: 30px;
+  margin-bottom: 25px;
 }
 
 .list {
